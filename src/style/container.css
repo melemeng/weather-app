@@ -1,0 +1,49 @@
+.container{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+
+}
+
+.box1 {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: red;
+}
+
+.box2 {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+}
+
+/*
+anderen 4 tagen der woche
+*/
+
+.container-2{
+    position: absolute;
+    overflow: hidden;
+    top: 65%;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+
+
+}
+
+.box-3{
+    flex: 1;
+    height: 100%;
+    margin-right: 1rem;
+    background-color: #ddd;
+
+}
+.box-3:last-child {
+    margin-right: 0;
+}
