@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('NPM install') {
+    stage('Clone branch') {
       steps {
-        sh 'npm install'
+        sh 'git clone https://github.com/melemeng/weather-app'
       }
     }
 
