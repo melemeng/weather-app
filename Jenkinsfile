@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Clone') {
+      steps {
+        sh 'git clone https://github.com/melemeng/weather-app'
+      }
+    }
+
   }
 }
